@@ -1,0 +1,78 @@
+// Styling the Complete notes component
+.list-styling-complete {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 20px;
+    position: relative;
+    top: -170px;
+    left: 5%;
+    width: 80%;
+}
+.complete-div{
+    position: relative;
+    border-radius: 6px;
+    width: 240px;
+    border: none;
+    block-size: fit-content;
+    box-shadow: 0 3px 8px #8d8d8d;
+    border-radius: 10px;
+}
+.complete-title-div {
+    position: relative;
+    width: fit-content;
+    padding: 15px;
+}
+
+.complete-desc-div {
+    position: relative;
+    width: fit-content;
+    padding: 15px;
+}
+
+.complete-title {
+    position: relative;
+    width: auto;
+    margin: 0px !important;
+}
+
+.complete-desc {
+    position: relative;
+    width: 1vw;
+}
+
+// Styling the buttons
+.complete-buttons {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons-pos-complete {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    border-radius: 30px;
+}
+
+// Implementing hover functionality
+.buttons-pos-complete:hover {
+    background: #bdbdbd;
+}
+
+.trash-btn {
+    position: relative;
+    width: 15px;
+}
+
+.incomplete-btn {
+    position: relative;
+    width: 17px;
+}

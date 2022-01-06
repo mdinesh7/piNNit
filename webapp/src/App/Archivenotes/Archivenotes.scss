@@ -1,0 +1,79 @@
+// Archive tasks lists styling 
+.archive-list-styling {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 20px;
+    position: relative;
+    top: -170px;
+    left: 5%;
+    width: 80%;
+  }
+  // archive notes div styling
+  .archive-tasks-div{
+      position: relative;
+      border-radius: 6px;
+      width: 240px;
+      border: none;
+      block-size: fit-content;
+      box-shadow: 0 3px 8px #8d8d8d;
+      border-radius: 10px;
+  }
+  // Archive notes task title div styling
+  .archive-task-title-div {
+    position: relative;
+    width: fit-content;
+    padding: 15px;
+  }
+  // Archive notes task description div styling
+  .archive-task-desc-div {
+    position: relative;
+    width: fit-content;
+    padding: 15px;
+  }
+  // Archive notes task title styling
+  .archive-task-title {
+    position: relative;
+    width: auto;
+    margin: 0px !important;
+  }
+   // Archive notes task description styling
+  .archive-task-desc {
+    position: relative;
+    width: 1vw;
+  }
+   // Archive notes task buttons styling
+  .archive-task-buttons {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .archive-buttons-pos {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    border-radius: 30px;
+  }
+  
+  .archive-buttons-pos:hover {
+    background: #bdbdbd;
+  }
+  
+  .unarchive-btn {
+    position: relative;
+    width: 17px;
+  }
+  
+ .archive-trash-btn{
+    position: relative;
+    width: 14px;
+  }
+  

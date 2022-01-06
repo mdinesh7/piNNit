@@ -1,0 +1,118 @@
+// Notes List Styling
+.list-styling {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px 20px;
+  position: relative;
+  top: -170px;
+  left: 5%;
+  width: 80%;
+  
+}
+
+// Tasks Div Styling
+.tasks-div{
+  position: relative;
+  border-radius: 6px;
+  width: 240px;
+  border: none;
+  block-size: fit-content;
+  box-shadow: 0 3px 8px #8d8d8d;
+  border-radius: 10px;
+}
+
+// Title Div Styling
+.task-title-div {
+  position: relative;
+  width: 80%;
+  padding: 14px;
+}
+
+// Title Whole Div
+.title-top-div{
+  display: flex;
+}
+
+// Pin Icon Div
+.pin-icon-div {
+  float: right;
+  position: relative;
+  top: -18px;
+  left: -88px;
+  width: 20%;
+}
+
+// Pin Icon Styling
+.pin-icon {
+  position: relative;
+  width: 30px;
+}
+
+// Tasks Description div Styling
+.task-desc-div {
+  position: relative;
+  width: fit-content;
+  padding: 15px;
+}
+
+// Title Styling
+.task-title {
+  position: relative;
+  width: auto;
+  margin: 0px !important;
+}
+
+// Description Text Styling
+.task-desc {
+  position: relative;
+  width: 1vw;
+}
+
+// Task Buttons Div Styling
+.task-buttons {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+// Buttons Styles
+.buttons-pos {
+  position: relative;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  border: none;
+  background: none;
+  border-radius: 30px;
+  left: 2%;
+}
+
+// Button Hover Color
+.buttons-pos:hover {
+  background: #bdbdbd;
+}
+
+// Archive Button 
+.archive-btn {
+  position: relative;
+  margin-top: 2px;
+  width: 18px;
+}
+
+// Complete Button
+.check-btn {
+  position: relative;
+  margin-top: 2px;
+  width: 18px;
+}
+
+// Trash Button Style
+.trash-btn {
+  position: relative;
+  width: 14px;
+}

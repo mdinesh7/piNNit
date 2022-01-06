@@ -1,0 +1,88 @@
+// Main Notes List Div Styling
+.list-styling-trash {
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 20px;
+    position: relative;
+    top: -170px;
+    left: 5%;
+    width: 80%;
+}
+
+// Trash Notes Styling
+.trash-div{
+    position: relative;
+    border-radius: 6px;
+    width: 240px;
+    border: none;
+    block-size: fit-content;
+    box-shadow: 0 3px 8px #8d8d8d;
+    border-radius: 10px;
+}
+
+// Trash Notes Title div Styling
+.trash-title-div {
+    position: relative;
+    width: fit-content;
+    padding: 15px;
+}
+
+// Trash Description Div Styling
+.trash-desc-div {
+    position: relative;
+    width: fit-content;
+    padding: 15px;
+}
+
+// Trash Notes Title Styling
+.trash-title {
+    position: relative;
+    width: auto;
+    margin: 0px !important;
+}
+
+// Trash Notes Description Styling
+.trash-desc {
+    position: relative;
+    width: 1vw;
+}
+
+// Button Div Styling
+.trash-buttons {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+// Buttons Individual Styling
+.buttons-pos-trash {
+    position: relative;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    border-radius: 30px;
+}
+
+// Hover Style for Buttons
+.buttons-pos-trash:hover {
+    background: #bdbdbd;
+}
+
+// Delete permanently icon styling
+.trash-btn {
+    position: relative;
+    width: 15px;
+}
+
+// Restore icon styling
+.restore-btn {
+    position: relative;
+    width: 17px;
+}

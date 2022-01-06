@@ -1,0 +1,148 @@
+// Main div styling
+.main-container {
+  width: 80%;
+  top: -220px;
+  left: 20%;
+  position: relative;
+}
+// Main form styling
+.main-form {
+  width: 600px;
+  background: #fff;
+  padding: 22px;
+  border-radius: 7px;
+  box-shadow: 0 3px 8px #8d8d8d;
+  padding: 15px;
+}
+// Title div styling 
+.title-addnote {
+  position: relative;
+  height: 20px;
+  width: 85%;
+  border: none;
+  padding: 4px 0px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+
+}
+//title section styling
+.title-section{
+  height: 25px;
+}
+
+//input content in addnote Styling
+.content {
+  display: flex;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+  height: 100px;
+}
+
+// to hide the addnotes div when not in use
+.hide {
+  display: none;
+}
+
+//Div Collapse Styling
+.display-try {
+  display: block !important;
+}
+
+
+// buttons styling in addnotes div
+.toolbar {
+  display: flex;
+  bottom: 0;
+  box-sizing: border-box;
+  margin-top: 87px;
+  margin-left: -10px;
+}
+
+// Common Button Styling
+.common-buttons{
+  position: relative;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+// Add Buttons
+.add-buttons {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+// Hover Color and Opacity
+.add-buttons:hover{
+  background-color: #d6d6d6;
+  opacity: 0.7;
+}
+
+// Icons Positioning
+.icon {   
+  position: relative;
+  width: 20px;           
+}
+
+// Save button Div Styles
+.save-close {
+  position: relative;
+  left: 58%;
+}
+
+// Save button Styles
+.save-close-button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0px 5px 0px 10px;
+  color: rgb(56, 56, 56);
+  font-family: 'Product Sans',Arial,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 4px;
+}
+
+// Save Button Hover
+.save-close-button:hover {
+  background: #f3f3f3;
+  opacity: 0.7;
+}
+
+// Color Picker Panel Styling
+.popover {
+  position: absolute;
+  z-index: 2;
+  width: 235px;
+  height: 65px;
+  padding: 20px;
+  opacity: 0.95;
+  box-shadow: 0 3px 8px #b8b8b8;
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+}
+
+//Color Picker Positioning
+.cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}

@@ -1,0 +1,32 @@
+// Navigation Bar Background
+.navbar-style {
+    position: fixed;
+    top: 0;
+    background: rgb(224,253,255);
+    background: linear-gradient(90deg, rgba(224,253,255,1) 28%, rgba(171,192,221,1) 69%);
+    height: 56px;
+    z-index: 5050;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 6px 4px -6px #777;
+} 
+
+// Navbar Title
+.title {
+    position: relative;
+    padding: 17px;
+    margin: auto;
+    margin-left: 66px !important;
+    font-weight: lighter;
+    font-family: 'Product Sans',Arial,sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    max-width: 60px;
+    margin-right: 0px !important;
+}
+.custom-logo {
+    position: absolute;
+    margin-left: 20px;
+    width: 44px;
+    margin-top: 5px;
+}

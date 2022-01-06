@@ -1,0 +1,6 @@
+{
+    "tasks_api_url":"http://localhost:3003/taskcollections",
+    "trash_api_url":"http://localhost:3003/trashcollections",
+    "archive_api_url":"http://localhost:3003/archivecollections",
+    "complete_api_url":"http://localhost:3003/completecollections"
+}
